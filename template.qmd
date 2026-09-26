@@ -1,0 +1,153 @@
+---
+title: "Lorem Ipsum Dolor Sit Amet: Consectetur Adipiscing Elit in Sed Do Eiusmod Tempor"
+shorttitle: "Lorem Ipsum Dolor"
+author:
+  - name: Dominique Makowski
+    orcid: 0000-0001-5375-9967
+    email: D.Makowski@sussex.ac.uk
+    corresponding: true
+    roles:
+      - Conceptualization
+      - Formal Analysis
+      - Writing – original draft
+    affiliations:
+      - id: "id1"
+        name: "University of Sussex"
+        department: "School of Psychology"
+        city: "Brighton"
+        country: "UK"
+      - id: "id2"
+        name: "University of Sussex"
+        department: "Sussex Centre for Consciousness Science"
+        city: "Brighton"
+        country: "UK"
+  - name: Jane Doe
+    orcid: 0000-0002-1825-0097
+    roles:
+      - Writing – review & editing
+    affiliations:
+      - ref: id1
+  - name: John Smith
+    roles:
+      - Supervision
+    affiliations:
+      - name: "Nanyang Technological University"
+        department: "School of Social Sciences"
+        city: "Singapore"
+        country: "Singapore"
+abstract: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat, across 1,234 participants and 56,789 trials. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Curabitur pretium tincidunt lacus, nulla gravida orci a odio; nullam varius turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula, donec lobortis risus a elit. These results suggest that etiam tempor, ut ullamcorper ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam.
+keywords:
+  - lorem ipsum
+  - dolor sit amet
+  - consectetur
+  - adipiscing elit
+supplemental-materials:
+  - "https://github.com/DominiqueMakowski/apaquasi"
+  - "https://osf.io/abcde/"
+date: today
+preprint:
+  type: Research Article
+  server: PsyArXiv
+  doi: 10.31234/osf.io/abcde
+  version: 1
+  status: Not peer reviewed
+  license: CC BY 4.0
+  badges:
+    open-data: "https://osf.io/abcde/"
+    open-materials: "https://github.com/DominiqueMakowski/apaquasi"
+    preregistered: "https://osf.io/xyz12/"
+floatsintext: true
+bibliography: bibliography.bib
+format:
+  apaquasi-pdf: default
+---
+
+# Introduction
+
+Adipiscing odio curabitur mollit aute ullamco cursus veniam morbi sed. Quis officia id proin adipiscing ultrices non. Dolor deserunt consequat nullam ipsum velit morbi imperdiet nullam voluptate officia integer ullamco, quis faucibus nostrud mauris lectus gravida tempor aliquet accumsan ea ornare. Neque cupidatat magna tempor anim et ad id exercitation faucibus nullam donec eleifend esse leo justo culpa orci. Fugiat rhoncus curabitur esse tristique faucibus a rutrum deserunt. Labore anim sed nec sagittis orci dolore qui condimentum nec qui fames, primis aliquet irure gravida aute. Gravida porta sagittis placerat deserunt aute quam malesuada quis incididunt nisi voluptate velit morbi dolore ligula faucibus suscipit facilisis tincidunt efficitur dolor aliquip accumsan.
+
+Nisi commodo vulputate velit donec lorem gravida egestas pariatur proin laboris pharetra, proin non voluptate quisque esse [@ratcliff2008diffusion]. Magna netus amet nisi placerat bibendum laborum. Laborum condimentum ad minim senectus magna rhoncus commodo. Sem massa cillum gravida facilisis morbi qui aenean proident elit sagittis. Maecenas ultricies mi ex pretium mollit dolore integer consectetur efficitur anim deserunt ipsum aliqua et anim magna sed.
+
+Est nullam senectus qui aenean consequat mattis neque sem curabitur sem tortor occaecat nostrud, nostrud ac justo morbi praesent suscipit ut exercitation et. Pretium cupidatat occaecat accumsan consequat aute morbi excepteur nullam tristique. Enim fermentum massa exercitation incididunt aenean sit quis est cillum tortor senectus habitant qui. Cillum faucibus lorem vestibulum gravida donec turpis morbi. Senectus voluptate occaecat commodo officia labore augue aenean et nec labore, incididunt pellentesque egestas facilisis velit labore quam ad sint magna magna est dapibus. Ad dolor vehicula semper nec nulla sunt nec. Gravida primis consequat pharetra aliquet, nec aliqua dolor aliquet vehicula exercitation aliqua accumsan qui. Magna curabitur leo varius velit maecenas cursus eros, facilisis dolor efficitur pharetra ullamco duis gravida aliquip laboris efficitur. Imperdiet sunt gravida proin netus tincidunt ut quis morbi odio tempor lorem mauris.
+
+Esse fermentum efficitur porta ultrices dolor nisi enim, reprehenderit cursus do leo efficitur in ac. Eiusmod mauris culpa pretium ullamco, justo ultrices tortor voluptate est esse pariatur praesent adipiscing pariatur mauris praesent pretium [@ratcliff2008diffusion; @rouder2015lognormal]. Do viverra deserunt proident aliquet quis bibendum anim mollit adipiscing cupidatat sagittis sollicitudin nullam magna nullam quis quam sagittis. Sollicitudin elit aliquip nulla pariatur augue gravida do laboris vulputate lectus nec vulputate quam aliquip ligula neque occaecat lacus tempor vulputate lorem semper accumsan.
+
+Ac magna sollicitudin nec ea pharetra proin elit tortor felis dapibus commodo efficitur commodo cupidatat dolor faucibus nulla. Dapibus massa lorem eros turpis culpa ac augue magna suscipit fermentum fermentum qui quam sem fugiat. Nibh mauris quis est elit mollit non in adipiscing tempor, curabitur sem aliqua donec blandit neque. Sagittis curabitur in ipsum laboris morbi deserunt pariatur ultricies tristique incididunt rutrum pretium ea donec duis tristique facilisis, ultrices luctus fermentum proin. Consequat velit sem mi nulla pretium odio semper senectus laborum odio maecenas enim turpis est a mauris luctus aenean ad aute reprehenderit id ligula. Dolore blandit tortor sollicitudin, aenean suscipit blandit et sunt dolor vestibulum consectetur neque.
+
+## Lorem ipsum dolor
+
+Pharetra vestibulum dolor accumsan cursus deserunt senectus deserunt a vulputate senectus elit vestibulum integer dapibus cillum suscipit commodo. Adipiscing ante vehicula adipiscing minim porta duis tristique excepteur incididunt nulla faucibus felis qui donec felis integer faucibus nullam dolor tincidunt ad viverra amet. Quis mollit magna eiusmod elit pretium proident consectetur. Laborum commodo sem aliquip vehicula officia suscipit lacus leo cillum aliquip. Elit laboris augue adipiscing elit neque ornare primis non enim curabitur ullamco. Ex vehicula eiusmod lectus rhoncus porta leo magna proin imperdiet sit dolor netus laboris ac placerat. Voluptate vulputate pariatur semper a accumsan habitant suscipit vulputate, orci magna curabitur veniam nullam mi curabitur tristique condimentum faucibus integer elit. Senectus qui justo nulla imperdiet nullam odio, rutrum dolor ultricies occaecat minim.
+
+Secundum @ratcliff2008diffusion, rutrum laborum sem netus consequat amet quis commodo deserunt dapibus curabitur bibendum augue leo sem efficitur facilisis lectus morbi massa sollicitudin justo. Bibendum tincidunt id ex cupidatat nec ex accumsan sint cupidatat officia habitant odio hendrerit varius. Commodo anim placerat pariatur eros sit rhoncus commodo odio tempor ut efficitur et.
+
+## The present study
+
+Ullamco sit mattis varius viverra pellentesque maecenas imperdiet sint ut tincidunt pellentesque aliquip dolore sagittis netus aliqua neque ut reprehenderit reprehenderit vehicula. Pretium ex rutrum blandit mollit semper faucibus mi fermentum. Porta bibendum condimentum et exercitation culpa qui gravida ad velit laborum, nulla efficitur enim velit lorem. Sed id turpis varius donec aliqua, id gravida non morbi aliquip cursus mollit reprehenderit orci irure. Condimentum turpis maecenas ea suscipit eros dapibus a egestas aenean malesuada maecenas ad eiusmod ac magna. Quis anim neque consectetur orci neque eiusmod.
+
+Viverra ultricies fermentum nullam, excepteur vulputate netus quis viverra quis tortor mauris. Sollicitudin praesent malesuada turpis sagittis massa do, donec veniam nec tincidunt magna. Lorem aenean tristique praesent ut occaecat ultricies placerat fames fermentum ut sunt orci massa consequat turpis maecenas, senectus ea elit laborum velit elit. Mollit aliquip tristique ex voluptate fames et quam a.
+
+# Methods
+
+## Participants
+
+Habitant viverra curabitur donec efficitur in ligula occaecat quam duis magna odio blandit imperdiet proin orci lorem varius pharetra augue. Reprehenderit consequat accumsan habitant lectus mauris efficitur cursus ornare donec magna occaecat laborum mattis ligula id praesent tempor luctus sem faucibus ligula. Malesuada do commodo egestas sollicitudin exercitation maecenas exercitation hendrerit donec sit. Tortor voluptate enim viverra gravida integer primis ad sollicitudin rhoncus faucibus. Senectus aenean do magna est turpis anim quis vulputate exercitation exercitation fermentum cillum pharetra elit tempor felis.
+
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+
+## Materials and procedure
+
+Mauris quisque ac in curabitur facilisis praesent vehicula, excepteur fugiat nulla ad faucibus laborum fames irure. Lacus dolor suscipit turpis cursus velit aliqua fermentum, lectus pharetra morbi tincidunt donec eros non ligula habitant laboris est faucibus mattis. Consectetur primis odio dolor vehicula incididunt fames turpis anim justo deserunt, occaecat tincidunt aute nostrud eiusmod. Augue eleifend consequat quis commodo felis blandit nulla. Consequat aenean eleifend facilisis egestas a cillum lacus habitant commodo integer aliquip suscipit. Mollit primis rutrum eleifend quis primis sit gravida accumsan ea donec. Gravida faucibus quisque laboris id viverra adipiscing ultrices felis deserunt dolore, tristique eros tortor aliquip aute tempor do. Nostrud est accumsan duis vestibulum donec leo aenean dolor voluptate [@rouder2015lognormal]. Exercitation netus tortor nullam sed leo officia fermentum fermentum est placerat exercitation leo cursus mauris et primis odio occaecat ea.
+
+Qui consectetur incididunt mauris curabitur commodo vehicula sunt magna. Culpa officia id sollicitudin in lorem odio in consequat aenean tincidunt nulla nisi adipiscing consequat sit mauris est magna amet nulla gravida ut commodo. Aliquip dolore sem consequat placerat nibh laboris mi egestas deserunt tempor semper eros aliquet elit et pellentesque sagittis porta laboris netus fermentum aliqua. In dolore commodo odio massa felis faucibus, facilisis commodo donec proin ac exercitation aliquip efficitur officia ac. Integer donec sagittis blandit nostrud nec porta nec lacus quisque voluptate sem magna, quis minim quis ac nostrud quisque consequat. Ultrices sollicitudin ea praesent justo morbi ut turpis elit justo ullamco neque proin qui voluptate habitant mollit, laboris quis rutrum leo aliquip nullam mattis.
+
+Rutrum adipiscing orci elit excepteur a elit integer quis ipsum excepteur irure vehicula, sagittis magna irure elit quis facilisis officia ornare dolor donec imperdiet. Condimentum minim ut voluptate velit, incididunt ad a fermentum morbi senectus fermentum blandit a officia nibh aliquip. Senectus hendrerit bibendum tempor deserunt primis labore ipsum sunt eros, qui aute lacus et felis ex.
+
+## Data analysis
+
+Consequat faucibus rhoncus anim, egestas ultrices justo aliqua primis eiusmod vulputate amet. Neque porta mattis dapibus blandit et aliquip dapibus consectetur felis, fugiat aliquet placerat veniam vulputate laboris curabitur. Ad primis elit integer deserunt mauris fugiat enim quam aliquip facilisis quam cupidatat quis quis in est ullamco in lacus non nulla voluptate. Pariatur malesuada tristique vehicula augue consequat vehicula magna nec. Maecenas magna viverra fermentum eros odio labore justo proin aliqua elit. Secundum @rouder2015lognormal, mi do labore leo turpis enim quis proin ligula tristique augue efficitur eiusmod mi mattis occaecat, magna sem egestas reprehenderit et. Minim proin nulla eiusmod pretium maecenas maecenas hendrerit semper velit eleifend quisque varius vestibulum tortor integer ut.
+
+Dolore sollicitudin nostrud rutrum ligula varius tincidunt reprehenderit mauris, ad irure quis elit ante consequat minim elit. Hendrerit quis morbi quam placerat amet placerat elit excepteur qui imperdiet. Cupidatat mollit aute voluptate enim commodo exercitation proin aenean hendrerit do integer consequat ornare voluptate esse excepteur cillum maecenas tempor praesent eleifend. Fermentum varius consequat id rhoncus laborum elit viverra cupidatat leo mattis maecenas tristique varius. Facilisis dolor esse proident aute tincidunt ut habitant quisque efficitur ullamco ultricies ea varius minim esse a mi nibh in vulputate quis deserunt.
+
+# Results
+
+Adipiscing blandit ut primis egestas quisque est ligula ad quisque mollit, elit luctus exercitation mauris in aute do. Viverra consequat ipsum ad amet lacus officia reprehenderit massa facilisis morbi. Turpis est eros ea incididunt laborum dolor aliquet dolore nisi. Accumsan amet nibh neque laborum irure et porta lorem justo, laborum mattis blandit sint minim hendrerit placerat magna hendrerit cursus proin proin.
+
+## Consectetur adipiscing
+
+Tempor vestibulum quisque tincidunt amet mauris magna lectus laborum ullamco augue mauris duis tempor justo cursus, integer nulla tristique pellentesque excepteur duis. Do commodo proident tempor proident eiusmod nec elit nibh primis cursus sem tincidunt do occaecat turpis mauris incididunt sollicitudin a ea. Sagittis maecenas ligula integer sint fames fames leo, ultricies orci minim morbi ad ac excepteur cursus commodo magna ullamco ad. Consequat porta cillum fermentum quis consequat eiusmod justo vulputate odio labore enim dapibus eleifend nibh velit. Maecenas sed commodo magna est eleifend placerat ligula condimentum sed voluptate. Leo quisque fermentum enim mattis aute facilisis eleifend primis nec nullam pretium aliquip adipiscing sint fames ultricies vestibulum ultrices ex gravida. Qui turpis netus proident ea, duis aliqua mi nulla fermentum veniam luctus lectus dolore massa aenean et pharetra velit nulla placerat. Aute est malesuada adipiscing placerat efficitur mattis leo suscipit, efficitur consequat veniam dolore. Hendrerit praesent tortor neque aliqua commodo, luctus aliqua mi suscipit ultricies lectus commodo efficitur excepteur consequat ac egestas labore ea ultricies voluptate. Mollit lectus ultricies varius ad tincidunt non efficitur odio commodo eros rhoncus quis, egestas fugiat augue voluptate.
+
+Vehicula eiusmod elit ad tempor neque gravida culpa mattis blandit elit fames cursus et eros habitant curabitur. Pharetra donec aliqua et velit maecenas blandit habitant tristique, sunt imperdiet irure nec luctus lectus sagittis consequat leo nibh. Suscipit ea orci mi pretium irure nostrud incididunt et ligula dolor pretium velit felis. Occaecat velit fames nibh suscipit fames bibendum fames consectetur quis ante, proin aliquet laborum officia justo incididunt [@ratcliff2008diffusion]. Turpis accumsan dolor laboris ac duis gravida eleifend dapibus eleifend tempor sagittis, ut condimentum ultrices cupidatat placerat efficitur turpis aliqua ligula proin. Ex commodo nostrud ante quisque integer rutrum eleifend irure, non quam sagittis egestas eiusmod tempor.
+
+## Sed do eiusmod
+
+Donec reprehenderit nibh aute felis luctus esse ante pharetra integer proin quam rhoncus netus vehicula pharetra sem amet leo sollicitudin nisi blandit bibendum. Sem gravida augue neque anim ut pellentesque. Hendrerit faucibus in curabitur sed, mattis nisi occaecat amet maecenas nec dolor. Egestas viverra et aute ultricies culpa ultrices, felis pellentesque hendrerit ornare nec nulla aliquet rhoncus imperdiet cursus justo gravida habitant. Rutrum pharetra mollit pharetra turpis culpa netus luctus pellentesque quis ultrices odio turpis ea mattis. Primis lectus in et eiusmod turpis ad lectus fermentum lacus pellentesque qui proident accumsan a ultrices a aute laboris. Curabitur incididunt facilisis mollit id ut exercitation praesent sollicitudin viverra exercitation aute ipsum massa. Tortor sem pellentesque proident turpis magna turpis et veniam mattis id rhoncus.
+
+Nulla blandit pariatur do primis malesuada sint et. Dolor pharetra condimentum laboris mauris varius donec cursus. Malesuada duis proin suscipit a cupidatat nisi, sollicitudin esse aliquet lacus sint sit integer commodo condimentum cupidatat nulla dapibus porta nibh felis veniam. Aute pellentesque magna pretium ipsum nulla ligula est, consequat orci sollicitudin eros. Nulla placerat est et ex suscipit bibendum.
+
+Dapibus egestas elit ex commodo leo deserunt deserunt duis pellentesque voluptate donec. Blandit massa viverra accumsan officia pretium, ad hendrerit consequat facilisis placerat enim vehicula nisi et massa proin proident. Felis semper fermentum aliquip sunt netus quis, quam consequat labore donec consequat. Ultrices tristique bibendum consectetur primis lacus lorem officia. Tempor morbi lectus dolore aenean et magna viverra sed. Tortor excepteur duis dolor quisque faucibus, consequat ornare ornare ad aenean duis quis ex pariatur accumsan. Lorem consectetur pharetra tristique cursus morbi rhoncus faucibus anim, pretium aliquet lectus voluptate odio.
+
+# Discussion
+
+Sed dolor amet laborum sunt magna exercitation sed consequat incididunt. Tempor sagittis maecenas id aenean officia labore aute egestas, et id neque luctus neque. Est eros irure semper deserunt praesent pharetra odio et rutrum nulla porta rutrum malesuada incididunt lectus faucibus. Blandit tortor reprehenderit pharetra ornare sint, accumsan sem laborum mollit pharetra irure tristique labore ultrices praesent blandit. Curabitur lacus sunt sollicitudin ad mi leo quis accumsan, occaecat ut orci ornare eiusmod aliqua occaecat ultrices officia pellentesque. Sit qui occaecat ex pellentesque curabitur sunt primis laborum, efficitur magna varius faucibus suscipit rhoncus mauris. Fames suscipit exercitation viverra luctus sunt leo nec praesent tempor vehicula, deserunt in amet nulla efficitur augue blandit commodo voluptate non sollicitudin anim. Massa integer lacus netus netus aliquet fugiat justo fugiat aute cursus netus sint aenean et hendrerit sed enim incididunt ipsum praesent aute. Magna reprehenderit dolor officia, proin donec quisque et habitant senectus amet ipsum rhoncus efficitur.
+
+Odio accumsan turpis amet egestas ac pariatur laboris nostrud hendrerit reprehenderit, laborum cupidatat hendrerit tincidunt justo orci primis ad quisque dapibus aliquet vehicula [@ratcliff2008diffusion; @rouder2015lognormal]. Ad sed quis dapibus faucibus ornare efficitur sem labore dolor fugiat minim fames vulputate sollicitudin vehicula. Facilisis eiusmod anim qui condimentum sem a tempor enim nullam. Vehicula sed pariatur nec amet culpa, irure primis enim pharetra esse vehicula laborum condimentum vestibulum aenean sollicitudin ligula aute ad egestas lectus ut exercitation. Primis felis elit a mi netus, anim mauris efficitur ornare ac sint faucibus minim commodo pretium aliqua. Voluptate vestibulum luctus placerat laboris, quis ipsum bibendum fermentum placerat a ullamco consequat veniam sint ac consequat rutrum rutrum.
+
+Justo efficitur quis felis ligula sit et praesent vestibulum. Ultrices curabitur mattis semper fugiat faucibus fugiat aute orci. Orci malesuada in dolore cillum vulputate, odio dolor pharetra habitant enim placerat tincidunt pretium malesuada non. Ipsum primis mauris faucibus sollicitudin maecenas mauris ac duis pharetra magna proident pellentesque nec pariatur primis. Netus neque curabitur felis ornare nullam ante eleifend aliquip vehicula proident cursus excepteur massa adipiscing tristique. Maecenas et magna tortor fames aute eros laborum, tincidunt voluptate morbi ornare aliqua. Sagittis rhoncus proin dolor cursus do placerat accumsan minim laboris pretium justo cillum tempor vehicula, sagittis sollicitudin ac laboris dolor exercitation nulla. Rutrum augue neque deserunt consequat quisque ante tristique egestas reprehenderit lectus adipiscing habitant ullamco commodo blandit minim aliquip irure quis elit imperdiet donec. Habitant quis sem nostrud maecenas mi luctus magna pharetra tempor aliquip consectetur imperdiet laboris cillum curabitur ultricies nulla efficitur velit sollicitudin ultrices porta. Dapibus sint sint ac primis elit non mi porta vestibulum ipsum qui sunt nullam. Neque ullamco accumsan sint eleifend felis non aliquet aliquip.
+
+Netus facilisis nec vestibulum ante, aliquip quis justo aliquet nulla pharetra minim duis nec ex. Quisque irure quam vestibulum dolor aute neque ligula morbi sint senectus accumsan. Rutrum cillum netus turpis aute sint nec, mi ut mauris dolor senectus. Proin malesuada tortor netus blandit fermentum netus, cillum minim vehicula elit deserunt et sed odio mollit accumsan turpis fugiat aliquet vehicula malesuada massa quam.
+
+## Limitations
+
+Cursus eleifend aenean eiusmod maecenas cursus officia morbi ullamco pretium pharetra sed mi gravida quis. Maecenas ex est culpa quis porta cillum aute sunt. Et condimentum quis rhoncus nullam accumsan fugiat magna et et mattis orci nibh. Duis praesent et odio commodo consequat pretium in magna pretium. Netus irure neque orci blandit ornare mi enim quis dapibus nibh nullam leo donec senectus felis augue lorem quis. Mauris dolore rhoncus primis officia porta qui malesuada orci magna varius integer massa neque consequat vehicula senectus imperdiet incididunt tempor exercitation.
+
+## Conclusion
+
+Amet ea velit maecenas donec lorem porta proident consequat eros velit odio quis placerat tincidunt minim quisque cillum ut primis bibendum. Porta quis nostrud lorem qui pellentesque enim consequat mollit ultricies fermentum dolor dolor imperdiet. Consequat pellentesque aliqua anim ligula veniam ullamco ullamco nec leo pharetra aute faucibus duis irure, magna facilisis vehicula dolor cillum. Reprehenderit praesent fermentum officia veniam exercitation aute ea ligula, quis porta nec aute. Pretium efficitur varius adipiscing eros sunt ultricies quam occaecat.
+
+# References
+
+::: {#refs}
+:::
