@@ -46,7 +46,7 @@ supplemental-materials:
   - "https://github.com/DominiqueMakowski/apaquasi"
   - "https://osf.io/abcde/"
 date: today
-preprint:
+titlepage:
   type: Research Article
   server: PsyArXiv
   doi: 10.31234/osf.io/abcde

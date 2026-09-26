@@ -56,7 +56,7 @@ supplemental-materials:      # one url, or a list
   - https://github.com/...   # each listed with its repository's icon
   - https://osf.io/abcde/    # (GitHub, GitLab, OSF, Zenodo, PsyArXiv,
                              # figshare; a link icon otherwise)
-preprint:
+titlepage:
   type: Research Article     # under the bar (the default): Review, Tutorial...
   label: Preprint            # over the title, at the left (the default)
   server: PsyArXiv           # sidebar, and the foot of page 1

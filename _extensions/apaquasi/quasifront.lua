@@ -15,9 +15,9 @@
 --                    the correspondence address, at the foot of the first
 --                    column
 --
--- The fields it reads, all optional, sit under preprint: in the yaml:
+-- The fields it reads, all optional, sit under titlepage: in the yaml:
 --
---   preprint:
+--   titlepage:
 --     type: Research Article   # the wordmark under the bar (the default):
 --                              # Review, Tutorial, Registered Report...
 --     label: Preprint          # over the title, at the left (the default)
@@ -67,7 +67,7 @@ local function inlines(value)
 end
 
 local function field(meta, name)
-  local pp = meta.preprint
+  local pp = meta.titlepage
   if pp == nil or pandoc.utils.type(pp) ~= "table" then return nil end
   return pp[name]
 end
@@ -361,28 +361,47 @@ local badge_kinds = {
   { "preregistered-plus-de-tc", "preregistered-plus-de-tc.pdf" },
 }
 
+-- How many badges a row of the sidebar holds: three at the size they are set
+-- at, and four, a little smaller, when there are more than three, so that a
+-- fourth does not stand on a row of its own.
+local function badges_per_row(count)
+  if count <= 3 then return 3 end
+  return 4
+end
+
+-- The width of one badge, as a fraction of the sidebar, for that many to a
+-- row with the gaps between them (\quasibadgegap, 0.035 of the sidebar).
+-- Rounded down, so that rounding never pushes the last of a row onto the next.
+local function badge_width(count)
+  local per_row = badges_per_row(count)
+  local width = (1 - 0.035 * (per_row - 1)) / per_row
+  return string.format("%.4f", math.floor(width * 10000) / 10000)
+end
+
 local function badges_row(meta)
   local asked = field(meta, "badges")
   if asked == nil or pandoc.utils.type(asked) ~= "table" then return nil end
-  local out = pandoc.Inlines({ rawi([[\quasibadges]]) })
-  local any = false
+  local shown = {}
   for _, kind in ipairs(badge_kinds) do
     local value = asked[kind[1]]
     local text = value ~= nil and stringify(value) or ""
-    if text ~= "" and text ~= "false" then
-      if any then out:insert(rawi([[\quasibadgegap]])) end
-      local file = "badges/" .. kind[2]
-      file = utilsapa.extension_file_relative(file) or file
-      local badge = rawi([[\quasibadge{]] .. file .. "}")
-      if is_url(text) then
-        out:insert(pandoc.Link({ badge }, text))
-      else
-        out:insert(badge)
-      end
-      any = true
+    if text ~= "" and text ~= "false" then table.insert(shown, { kind, text }) end
+  end
+  if #shown == 0 then return nil end
+
+  local out = pandoc.Inlines({ rawi([[\quasibadges{]] .. badge_width(#shown) .. "}") })
+  for i, item in ipairs(shown) do
+    local kind, text = item[1], item[2]
+    if i > 1 then out:insert(rawi([[\quasibadgegap]])) end
+    local file = "badges/" .. kind[2]
+    file = utilsapa.extension_file_relative(file) or file
+    local badge = rawi([[\quasibadge{]] .. file .. "}")
+    if is_url(text) then
+      out:insert(pandoc.Link({ badge }, text))
+    else
+      out:insert(badge)
     end
   end
-  if not any then return nil end
   return out
 end
 

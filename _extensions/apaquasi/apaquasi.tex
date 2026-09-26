@@ -7,9 +7,9 @@
 % The page, from the top:
 %
 %   * a thick bar in the accent colour, and under it the article type as a
-%     wordmark (preprint: type:, Research Article by default), the way a
+%     wordmark (titlepage: type:, Research Article by default), the way a
 %     journal prints the section an article belongs to;
-%   * a label at the left (preprint: label:, Preprint by default) and the doi
+%   * a label at the left (titlepage: label:, Preprint by default) and the doi
 %     at the right, over a hairline;
 %   * the title: very large, heavy, tightly set serif;
 %   * a hairline across the page, and under it two columns: a sidebar of
@@ -27,9 +27,20 @@
 \usepackage{academicons}
 
 % The one colour the page carries: the bar, the doi and the foot line. A
-% document sets its own with preprint: color: "B8202E" (hex, no hash).
+% document sets its own with titlepage: color: "B8202E" (hex, no hash).
 \definecolor{quasiaccent}{HTML}{1B5E9F}
 \definecolor{quasigrey}{gray}{0.35}
+
+% The line numbers in the margin, there for reviewers to point at a line: a
+% light grey, so that they sit back from the text. lineno is loaded by
+% formatlatex.lua, in the header too, and the order of the two is not
+% promised, so the font is set once the document begins, and only if lineno
+% is there to use it. Its own size and face, lighter.
+\definecolor{quasilinenumber}{gray}{0.62}
+\AtBeginDocument{%
+  \ifdefined\linenumberfont
+    \renewcommand{\linenumberfont}{\normalfont\tiny\sffamily\color{quasilinenumber}}%
+  \fi}
 
 % --- Faces --------------------------------------------------------------------
 % The title is set in a heavy serif, as the Nature journals set theirs: TeX
@@ -124,15 +135,17 @@
 
 % The open science badges: the Center for Open Science's own files, which
 % carry their names on their ribbons (badges/, from https://osf.io/tvyxz/).
-% Three to a row of the sidebar; a fourth starts a row of its own. The badges
-% are a self-disclosure (see the README).
+% Three to a row of the sidebar, or four, a little smaller, when there are
+% more than three: quasifront.lua works out the width, as a fraction of the
+% sidebar, and passes it here. The badges are a self-disclosure (see the
+% README).
 \newlength{\quasibadgewidth}
 \newcommand{\quasibadge}[1]{%
   \includegraphics[width=\quasibadgewidth]{#1}}
 \newcommand{\quasibadgegap}{\hspace{0.035\linewidth}\allowbreak}
 % The row, with a small heading of its own.
-\newcommand{\quasibadges}{%
-  \setlength{\quasibadgewidth}{0.31\linewidth}%
+\newcommand{\quasibadges}[1]{%
+  \setlength{\quasibadgewidth}{#1\linewidth}%
   \noindent Open science\par\vspace{5pt}%
   \noindent\setlength{\lineskip}{5pt}\setlength{\lineskiplimit}{5pt}}
 
