@@ -2,8 +2,6 @@
 
 *A Quasi-APA Quarto template for fancy-looking preprints and manuscripts*
 
-<a href="template.pdf"><img src="preview.png" alt="First page of template.pdf" width="300" align="right"></a>
-
 A modification of [apaquarto](https://github.com/wjschne/apaquarto) APA-style Quarto template, with 
 the first page more heavily styled. Everything after the first page is
 [apaquarto](https://github.com/wjschne/apaquarto): APA citations,
@@ -11,7 +9,8 @@ headings, figure and table captions and notes, references, two columns.
 
 **Status: prototype, PDF only.** The Word, HTML and Typst formats are apaquarto's, unchanged.
 
-## Use
+## Use <a href="template.pdf"><img src="preview.png" alt="First page of template.pdf" width="350" align="right"></a>
+
 
 **New to Quarto?** [Quarto](https://quarto.org) is a free, open-source
 publishing system made by [Posit](https://posit.co) (the company behind
